@@ -1,5 +1,9 @@
 package pokemon.frame;
 
-public class PokemonFrame {
+import pokemon.controller.PokemonController;
+import javax.swing.JFrame;
+
+public class PokemonFrame 
+{
 
 }
