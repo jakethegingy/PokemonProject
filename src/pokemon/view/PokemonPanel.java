@@ -1,4 +1,4 @@
-package pokemon.panel;
+package pokemon.view;
 
 public class PokemonPanel {
 

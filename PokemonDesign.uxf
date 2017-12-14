@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>180</y>
+      <w>260</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>package :: Class
+--
+data members
+
+--
+constructors
+and
+methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>60</y>
+      <w>260</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>/pokemon.model :: Pokemon/
+--
+- name : String
+- number : int
+- canEvolve : boolean
+- health : int
+- attackPoint : int
+- enhancementModifier : double
+--
++ Pokemon(int, String) : constructor
++ toString() :String
++ getPokemonInformation() : String
++ getPokemonTypes() : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>60</y>
+      <w>260</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>package :: Class
+--
+data members
+
+--
+constuctors 
+and
+methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>910</x>
+      <y>350</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Note..
+bg=gray
+Poke Mon Design
+Jacob Hammond
+12.14.17</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>60</y>
+      <w>260</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>package :: Class
+--
+data members
+
+--
+constuctors 
+and
+methods</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1030</x>
+      <y>120</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>/pokemon.model :: Derptastic/
+--
++ annoy(int) : int
++ sayDerpy() : String
++ derpDerpDerp() : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>940</x>
+      <y>160</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,4 +1,4 @@
-package pokemon.frame;
+package pokemon.view;
 
 import pokemon.controller.PokemonController;
 import javax.swing.JFrame;
