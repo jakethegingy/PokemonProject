@@ -48,6 +48,11 @@ public class PokemonPanel extends JPanel
 		setupPanel();
 		setupLayout();
 		setupListeners();
+		
+		this.healthLabel = new JLabel("0");
+		this.attackLabel = new JLabel("Default Attack: ");
+		this.nameLabel = new JLabel("Default Name ");
+		//do the rest of the private stuff ^^^
 	}
 	
 	private void setupPanel()
