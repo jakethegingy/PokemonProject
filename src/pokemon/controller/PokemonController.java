@@ -3,6 +3,7 @@ package pokemon.controller;
 import pokemon.model.Pokemon;
 import java.util.List;
 import java.util.ArrayList;
+import pokemon.model.*;
 
 public class PokemonController 
 {
@@ -10,6 +11,15 @@ public class PokemonController
 	
 	public List<Pokemon> getPokedex()
 	{
+		pokedex.add(new Bulbasaur());
+		pokedex.add(new Charmander());
+		pokedex.add(new Grotle());
+		pokedex.add(new KingDra());
+		pokedex.add(new Squirtle());
+		pokedex.add(new SeaDra());
+		pokedex.add(new Turtwig());
+		pokedex.add(new Volcanion());
+		
 		return pokedex;
 	}
 	
@@ -59,4 +69,5 @@ public class PokemonController
 	{
 		
 	}
+	
 }

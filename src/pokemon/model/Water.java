@@ -1,6 +1,6 @@
 package pokemon.model;
 
-public class Water 
+public interface Water 
 {
 	public boolean IronDefense();
 	public int Hydropump(int erosion);

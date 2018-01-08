@@ -2,6 +2,18 @@ package pokemon.model;
 
 public class Volcanion extends Pokemon implements Water, Fire
 {
+	public Volcanion()
+	{
+		super(721, "Volcanion");
+		setup();
+	}
+	
+	public Volcanion(String name)
+	{
+		super(721, name);
+		setup();
+	}
+	
 	public Volcanion(int number, String name)
 	{
 		super(number, name);
@@ -10,6 +22,14 @@ public class Volcanion extends Pokemon implements Water, Fire
 	public boolean IronDefense()
 	{
 		return true;
+	}
+	
+	protected void setup()
+	{
+		this.setAttackPoints(110);
+		this.setCanEvolve(false);
+		this.setEnhancementModifier(.89);
+		this.setHealthPoints(80);
 	}
 	
 	public int Hydropump(int erosion)
